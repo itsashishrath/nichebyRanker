@@ -12,7 +12,7 @@ from pdf2image import convert_from_bytes
 import logging
 
 # Set path to Tesseract OCR (only required for Windows users)
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # Adjust the path as needed
+# pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"  # Adjust the path as needed
 
 class WarningLogger:
     def __init__(self):
