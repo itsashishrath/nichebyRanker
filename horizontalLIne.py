@@ -71,7 +71,7 @@ def draw_horizontal_lines(image, empty_regions):
 # Main Script
 if __name__ == "__main__":
     # Replace with the path to your uploaded resume image
-    image_path = "C:/Users/hp/Desktop/nicheby/myResume.png"  # Update the path as needed
+    image_path = "C:/Users/hp/Desktop/nicheby/nichebyRanker/keshavresume.png"  # Update the path as needed
 
     # Step 1: Load and preprocess the image
     binary_image = load_and_preprocess(image_path)
